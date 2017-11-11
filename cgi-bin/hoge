@@ -1,0 +1,40 @@
+== Info:   Trying 127.0.0.1...
+== Info: Connected to localhost (127.0.0.1) port 8000 (#0)
+=> Send header, 167 bytes (0xa7)
+0000: 50 4f 53 54 20 2f 63 67 69 2d 62 69 6e 2f 71 75 POST /cgi-bin/qu
+0010: 65 72 79 74 65 73 74 2e 70 79 20 48 54 54 50 2f erytest.py HTTP/
+0020: 31 2e 31 0d 0a 48 6f 73 74 3a 20 6c 6f 63 61 6c 1.1..Host: local
+0030: 68 6f 73 74 3a 38 30 30 30 0d 0a 55 73 65 72 2d host:8000..User-
+0040: 41 67 65 6e 74 3a 20 63 75 72 6c 2f 37 2e 34 37 Agent: curl/7.47
+0050: 2e 30 0d 0a 41 63 63 65 70 74 3a 20 2a 2f 2a 0d .0..Accept: */*.
+0060: 0a 43 6f 6e 74 65 6e 74 2d 4c 65 6e 67 74 68 3a .Content-Length:
+0070: 20 37 0d 0a 43 6f 6e 74 65 6e 74 2d 54 79 70 65  7..Content-Type
+0080: 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f 78 2d : application/x-
+0090: 77 77 77 2d 66 6f 72 6d 2d 75 72 6c 65 6e 63 6f www-form-urlenco
+00a0: 64 65 64 0d 0a 0d 0a                            ded....
+=> Send data, 7 bytes (0x7)
+0000: 66 6f 6f 3d 61 62 63                            foo=abc
+== Info: upload completely sent off: 7 out of 7 bytes
+== Info: HTTP 1.0, assume close after body
+<= Recv header, 36 bytes (0x24)
+0000: 48 54 54 50 2f 31 2e 30 20 32 30 30 20 53 63 72 HTTP/1.0 200 Scr
+0010: 69 70 74 20 6f 75 74 70 75 74 20 66 6f 6c 6c 6f ipt output follo
+0020: 77 73 0d 0a                                     ws..
+<= Recv header, 37 bytes (0x25)
+0000: 53 65 72 76 65 72 3a 20 53 69 6d 70 6c 65 48 54 Server: SimpleHT
+0010: 54 50 2f 30 2e 36 20 50 79 74 68 6f 6e 2f 33 2e TP/0.6 Python/3.
+0020: 35 2e 32 0d 0a                                  5.2..
+<= Recv header, 37 bytes (0x25)
+0000: 44 61 74 65 3a 20 53 61 74 2c 20 30 34 20 4e 6f Date: Sat, 04 No
+0010: 76 20 32 30 31 37 20 30 33 3a 35 34 3a 30 39 20 v 2017 03:54:09 
+0020: 47 4d 54 0d 0a                                  GMT..
+<= Recv header, 24 bytes (0x18)
+0000: 43 6f 6e 74 65 6e 74 2d 74 79 70 65 3a 20 74 65 Content-type: te
+0010: 78 74 2f 68 74 6d 6c 0a                         xt/html.
+<= Recv header, 1 bytes (0x1)
+0000: 0a                                              .
+<= Recv data, 39 bytes (0x27)
+0000: 0a 3c 68 74 6d 6c 3e 3c 62 6f 64 79 3e 0a 66 6f .<html><body>.fo
+0010: 6f 3d 20 61 62 63 0a 3c 2f 62 6f 64 79 3e 3c 2f o= abc.</body></
+0020: 68 74 6d 6c 3e 0a 0a                            html>..
+== Info: Closing connection 0
